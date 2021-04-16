@@ -1,0 +1,16 @@
+.react-swipeable-carousel {
+  position: relative;
+  overflow: hidden;
+}
+
+.react-swipeable-carousel__wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+
+.react-swipeable-carousel__item {
+  width: 100%;
+}
