@@ -1,6 +1,6 @@
 const  threshold = (target) => {
   const width = target.clientWidth;
-  return width / 3;
+  return  (15 * width) / 100;
 }
 
 export const swipeHandler = (e, dispatch, length, direction) => {
